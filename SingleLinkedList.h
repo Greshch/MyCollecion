@@ -126,7 +126,7 @@ void SingleLinkedList<T>::Remove(T const& t)
         if (cur == nullptr) continue;
         r = r->next;
     }
-    cout << "\n$$$\n";
+    //cout << "\n$$$\n";
 }
 
 template<typename T>
